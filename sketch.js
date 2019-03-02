@@ -5,7 +5,7 @@ var time = 0; // time variable
 var button; // button variable
 
 function setup() { // sets up the work area
-  createCanvas(841, 594); // sets canvas to specified dimensions
+  createCanvas(windowWidth, windowHeight); // sets canvas to specified dimensions
   noStroke();
 
   button = createButton('Random Colour'); // button creation for random colour
